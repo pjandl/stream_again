@@ -1,6 +1,6 @@
-package jandl.streamAgain;
-
+import java.awt.Color;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Colecoes {
@@ -27,4 +27,7 @@ public class Colecoes {
 		outrosNomes.add("Anders Hejlsberg");
 		outrosNomes.add("Martin Odersky");
 	}
+	
+	// Coleção 3: uma lista de cores
+	public static List<Color> cores = Arrays.asList(Color.WHITE, Color.GREEN, Color.YELLOW, Color.BLUE);
 }
